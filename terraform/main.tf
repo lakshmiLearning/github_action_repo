@@ -1,9 +1,9 @@
 provider "aws" {
-  region = "us-east-1"  # change as needed
+  region = "us-east-1"  
 }
 
 resource "aws_s3_bucket" "my_bucket" {
-  bucket = "github-action-demo-bucket77"  
+  bucket = "githubaction-demo-bucket-newone"  
 
   tags = {
     CreatedBy = "Terraform"
